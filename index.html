@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+  <head>
+    <title>FLEXBOX!</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <section>margin-left: auto (orange element)</section>
+  <article class="margin-left">
+    <div class="margin-left_box--red">1</div>
+    <div class="margin-left_box--blue">2</div>
+    <div class="margin-left_box--green">3</div>
+    <div class="margin-left_box--orange">4</div>
+  </article>
+
+  <br></br>
+
+  <section>margin-left: auto (green element)</section>
+  <article class="two-margin-left">
+    <div class="two-margin-left_box--red">1</div>
+    <div class="two-margin-left_box--blue">2</div>
+    <div class="two-margin-left_box--green">3</div>
+    <div class="two-margin-left_box--orange">4</div>
+  </article>
+
+  <br></br>
+
+  <section>flex: 1 (container) (1 1 0) </section>
+  <article class="flex1">
+    <div class="flex1_box--red">1</div>
+    <div class="flex1_box--blue">2</div>
+    <div class="flex1_box--green">3</div>
+    <div class="flex1_box--orange">4</div>
+  </article>
+
+  <br></br>
+
+  <section>flex: 1 (container) + flex: 2 (red element)</section>
+  <article class="flex2red">
+    <div class="flex2red_box--red">1</div>
+    <div class="flex2red_box--blue">2</div>
+    <div class="flex2red_box--green">3</div>
+    <div class="flex2red_box--orange">4</div>
+  </article>
+
+  <br></br>
+
+  <section>flex-basis: 80px (1 1 80px)</section>
+  <article class="fb-80px">
+    <div class="fb-80px_box--red">1</div>
+    <div class="fb-80px_box--blue">2</div>
+    <div class="fb-80px_box--green">3</div>
+    <div class="fb-80px_box--orange">4</div>
+  </article>
+
+  <br></br>
+
+  <section>flex-shrink: 0 (red element)( 1 0 0)</section>
+  <article class="fs-0">
+    <div class="fs-0_box--red">1</div>
+    <div class="fs-0_box--blue">2</div>
+    <div class="fs-0_box--green">3</div>
+    <div class="fs-0_box--orange">4</div>
+  </article>
+
+  <br></br>
+
+  <section>flex-shrink: 10 (red element)(1 10 0)</section>
+  <article class="fs-10">
+    <div class="fs-10_box--red">1</div>
+    <div class="fs-10_box--blue">2</div>
+    <div class="fs-10_box--green">3</div>
+    <div class="fs-10_box--orange">4</div>
+  </article>
+
+  <br></br>
+
+  <body>
+
+    <section>justify-content: center</section>
+    <article class="jc-center">
+      <div class="jc-center_box--red">1</div>
+      <div class="jc-center_box--blue">2</div>
+      <div class="jc-center_box--green">3</div>
+      <div class="jc-center_box--orange">4</div>
+    </article>
+
+    <br></br>
+
+    <section>justify-content: space-around</section>
+    <article class="jc-space-around">
+      <div class="jc-space-around_box--red">1</div>
+      <div class="jc-space-around_box--blue">2</div>
+      <div class="jc-space-around_box--green">3</div>
+      <div class="jc-space-around_box--orange">4</div>
+    </article>
+
+    <br></br>
+
+    <br></br>
+
+    <section>justify-content: flex-start</section>
+    <article class="jc-flex-start">
+      <div class="jc-flex-start_box--red">1</div>
+      <div class="jc-flex-start_box--blue">2</div>
+      <div class="jc-flex-start_box--green">3</div>
+      <div class="jc-flex-start_box--orange">4</div>
+    </article>
+
+    <br></br>
+
+    <section>justify-content: flex-end</section>
+    <article class="jc-flex-end">
+      <div class="jc-flex-end_box--red">1</div>
+      <div class="jc-flex-end_box--blue">2</div>
+      <div class="jc-flex-end_box--green">3</div>
+      <div class="jc-flex-end_box--orange">4</div>
+    </article>
+
+    <br></br>
+
+    <section>align-items: flex start</section>
+    <article class="ai-flex-start">
+      <div class="ai-flex-start_box--red">1</div>
+      <div class="ai-flex-start_box--blue">2</div>
+      <div class="ai-flex-start_box--green">3</div>
+      <div class="ai-flex-start_box--orange">4</div>
+    </article>
+
+    <br></br>
+
+    <section>align-items: flex end</section>
+    <article class="ai-flex-end">
+      <div class="ai-flex-end_box--red">1</div>
+      <div class="ai-flex-end_box--blue">2</div>
+      <div class="ai-flex-end_box--green">3</div>
+      <div class="ai-flex-end_box--orange">4</div>
+    </article>
+
+    <br></br>
+
+    <section>align-items: center</section>
+    <article class="ai-center">
+      <div class="ai-center_box--red">1</div>
+      <div class="ai-center_box--blue">2</div>
+      <div class="ai-center_box--green">3</div>
+      <div class="ai-center_box--orange">4</div>
+    </article>
+
+    <br></br>
+
+    <section>align-items: stretch</section>
+    <article class="ai-stretch">
+      <div class="ai-stretch_box--red">1</div>
+      <div class="ai-stretch_box--blue">2</div>
+      <div class="ai-stretch_box--green">3</div>
+      <div class="ai-stretch_box--orange">4</div>
+    </article>
+
+    <br></br>
+
+    <section>justify-content: center + align-items: center</section>
+    <article class="jc-ai-center">
+      <div class="jc-ai-center_box--red">1</div>
+      <div class="jc-ai-center_box--blue">2</div>
+      <div class="jc-ai-center_box--green">3</div>
+      <div class="jc-ai-center_box--orange">4</div>
+    </article>
+
+    <br></br>
+
+    <br></br>
+
+    <section>align-self: flex-start (blue element)</section>
+    <article class="as-flex-start">
+      <div class="as-flex-start_box--red">1</div>
+      <div class="as-flex-start_box--blue">2</div>
+      <div class="as-flex-start_box--green">3</div>
+      <div class="as-flex-start_box--orange">4</div>
+    </article>
+
+    <br></br>
+
+    <section>flex-direction: column</section>
+    <article class="fd-column">
+      <div class="fd-column_box--red">1</div>
+      <div class="fd-column_box--blue">2</div>
+      <div class="fd-column_box--green">3</div>
+      <div class="fd-column_box--orange">4</div>
+    </article>
+
+    <br></br>
+
+    <section>flex-direction: column + align items: center</section>
+    <article class="fd-ai-center">
+      <div class="fd-ai-center_box--red">1</div>
+      <div class="fd-ai-center_box--blue">2</div>
+      <div class="fd-ai-center_box--green">3</div>
+      <div class="fd-ai-center_box--orange">4</div>
+    </article>
+
+    <br></br>
+
+    <section>flex-wrap: wrap</section>
+    <article class="fw-wrap">
+      <div class="fw-wrap_box--red">1</div>
+      <div class="fw-wrap_box--blue">2</div>
+      <div class="fw-wrap_box--green">3</div>
+      <div class="fw-wrap_box--orange">4</div>
+    </article>
+
+    <br></br>
+
+    <section>flex-wrap: wrap + flex-basis: 50%</section>
+    <article class="fw-fb-50">
+      <div class="fw-fb-50_box--red">1</div>
+      <div class="fw-fb-50_box--blue">2</div>
+      <div class="fw-fb-50_box--green">3</div>
+      <div class="fw-fb-50_box--orange">4</div>
+    </article>
+
+    <br></br>
+
+    <section>order: 1 (red element)</section>
+    <article class="order-1">
+      <div class="order-1_box--red">1</div>
+      <div class="order-1_box--blue">2</div>
+      <div class="order-1_box--green">3</div>
+      <div class="order-1_box--orange">4</div>
+    </article>
+
+    <br></br>
+
+    <section>order: -1 (orange element)</section>
+    <article class="order-minus-1">
+      <div class="order-minus-1_box--red">1</div>
+      <div class="order-minus-1_box--blue">2</div>
+      <div class="order-minus-1_box--green">3</div>
+      <div class="order-minus-1_box--orange">4</div>
+    </article>
+
+    <br></br>
+
+    <section>order: 1 (container) + order: 0 (orange element)</section>
+    <article class="order-0">
+      <div class="order-0_box--red">1</div>
+      <div class="order-0_box--blue">2</div>
+      <div class="order-0_box--green">3</div>
+      <div class="order-0_box--orange">4</div>
+    </article>
+
+  </body>
+
+</html>
